@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./trace_and_hunt_json.sh "command to trace" outputfile
+# Usage: ./checker.sh "command to trace" outputfile
 
 if [ $# -lt 2 ]; then
   echo "Usage: $0 \"command with args\" outputfile"
